@@ -1,0 +1,90 @@
+body {
+    margin: 0 auto;
+    background-color: #ffffff; /*white*/
+    width: 100%;
+}
+
+.nav-bar {
+    height: 70px;
+    width: 100%;
+    background-color: #592A15; /*black*/
+
+}
+
+.logo {
+     height: 50px;
+    width: 60px;
+    float: left;
+    margin-top: 7px;
+}
+.nav-list {
+    float: right;
+    /*color: #ffffff;*/
+    margin-right: 40px;
+    
+}
+.list-item {
+    list-style-type: none;
+    float: left;
+    margin:10px;
+    border-radius: 25px;
+    border: 2px solid;
+    background-color: #990000; /*red*/
+    height: 35px;
+    width: 60px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-right: 10px;
+    
+}
+.list-item:hover{
+    color: #000000;
+    background-color: #ff8080; 
+}
+.anchor: {
+    text-decoration: none;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.anchor:hover{
+    color: #000;  /*help*/
+
+}
+.hero {
+    background-image:url('../img/bee.JPG');
+    height:1000px;
+    width: 100%;
+    position: relative;
+    background-size: 100% 1000px;
+    background-repeat: no-repeat;
+}
+.main {
+    height: 600px;
+    width: 100%;
+}    
+    
+.box {
+    height: 550px;
+    width: 45%;
+    border: 3px solid black;
+    float: left;
+    margin: 75px 25px 25px 25px;
+}
+.container {
+    height: 700px:
+    width: 100%;
+    margin-top: 70px;
+    
+}
+footer {
+  height: 70px;
+  width: 100%;
+  background-color: #592A15;
+  
+}
+
+.copy {
+  padding-left:45px;
+  color:white;
+}
+
